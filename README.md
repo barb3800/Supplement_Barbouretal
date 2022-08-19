@@ -7,7 +7,7 @@
 
 <br>
 
-#### The goal of this repository is to provide example files and code to replicate the DTW (Dynamic Time Warp) and CNN (Convolutional Neural Network) analyses of Barbour et al. All DTW questions should be directed to Nicole Barbour at *nbarbour@umd.edu* and all CNN questions to Alexander Robillard at *arobillard@si.edu*. Acknowledgements should include citations to the main paper and the code authors (Nicole Barbour for DTW analysis, Alexander Robillard for CNN analysis). Tracking data is owned by Upwell (https://www.upwell.org/) and originally published in Shillinger et al. (2008, 2010, 2011). Although users are welcome to adopt code to their purposes, no modifications may be made to original code, data, or this Github repository.
+#### The goal of this repository is to provide example files and code to replicate the DTW (Dynamic Time Warp) and CNN (Convolutional Neural Network) analyses of Barbour et al. All DTW questions should be directed to Nicole Barbour at *nbarbour@umd.edu* and all CNN questions to Alexander Robillard at *RobillardA@si.edu*. Acknowledgements should include citations to the main paper and the code authors (Nicole Barbour for DTW analysis, Alexander Robillard for CNN analysis). Tracking data is owned by Upwell (https://www.upwell.org/) and originally published in Shillinger et al. (2008, 2010, 2011). Although users are welcome to adopt code to their purposes, no modifications may be made to original code, data, or this Github repository.
 <br> 
 
 ![](Images/DiveShapes.PNG)
