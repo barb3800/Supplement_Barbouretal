@@ -28,7 +28,10 @@
 Here, we used a Dynamic Time Warp (DTW) analysis (unsupervised machine learning) on 28,217 dives for N=31 EP leatherbacks to cluster dives by their quantitative metrics (dive depth and duration). We then used a Convolutional Neural Network (CNN) model (supervised machine learning) to classify dives within each cluster identified with the DTW by their general shape or profile. We trained our CNN on 5 published and known general dive shapes for sea turtles performing pelagic movements (Hochscheid 2014, Types A, C, D, E, and F), each of which can occur at a range of depths/durations but are indicative of different general behaviors (e.g., Type A, quick ascents/descents and prolonged bottom time). 
 
 <br>
+
 ![](Images/Histograms_Shapes.png)
+<br>
+*Density histograms showing the differences in spatial and temporal distributions for the 5 dive shapes (A, C, D, E, and F) identified within each cluster (cluster 1- deeper, cluster 2- shallower).*
 
 <br>
 To further determine the ecological relevance of the clusters identified with the DTW, Generalized Additive Mixed Models (GAMMs) were used to determine relationships between each DTW cluster and previously identified important environmental covariates (e.g., sea surface temperature, chlorophyll-a, sea surface height, and water depth). 
