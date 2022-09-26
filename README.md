@@ -1,4 +1,4 @@
-## This is a repository with example files for Barbour et al., *Using machine learning approaches to classify vertical movement profiles and behavior*.
+## This is a repository with example files for Barbour et al., *Clustering and classification of vertical movement profiles for ecological inference of behavior*.
 <br>
 
 ![](Images/Bailey2012b_leatherback_GL.PNG)
@@ -36,14 +36,17 @@ Here, we used a Dynamic Time Warp (DTW) analysis (unsupervised machine learning)
 
 ### Description of Files:
 
-### This repository has folders for: example code ("Code") and example data ("Data"), with separate sub-folders within the "Code" folder for DTW and CNN analyses. For descriptions of methods in general, please see Barbour et al. Otherwise, code files have comments throughout and for the DTW analysis portion, assume that users have intermediate R coding experience. Be sure that you have the most recent version of R and R Studio for the DTW analysis and Python for the CNN. CNN analysis files are set up to produce external folders that can be used with provided Python code to train and run the CNN model. Code files include:
+### This repository has folders for: example code ("Code") and data ("Data"). For descriptions of methods in general, please see Barbour et al. Otherwise, code files have comments throughout and for the DTW analysis portion, assume that users have intermediate R coding experience. Be sure that you have the most recent version of R and R Studio for the DTW analysis and Python for the CNN. 
+
+Code files include:
 
 <br>
 
  <font size="4"> 
  
   * **DTW_example.R**: Code to perform the DTW analysis, using the N=28,217 dives from Barbour et al. This is a large dataset and for example purposes, the data can be subset to a smaller sample size to decrease model run times.  
-  * **CNN_Prep_example.R**: Code to prepare input data for CNN model, using the N=28,217 dives from Barbour et al. Will result in folders on your local computer that can be used with provided CNN Python code.
+  * **CNN_Prep_example.R**: Code to prepare input data for CNN model, using the N=28,217 dives from Barbour et al. Will result in folders on your local computer ("training" and "master") that can be used with provided CNN Python code.
+  * **Diveprofile_CNN-Final.ipynb**: Python code to run CNN model, using the "fast.ai" PyTorch package and the ResNet-34 architecture, a pre-trained CNN that can be tailored to a personal dataset and desired number of classes using "transfer learning".
   
   </font>
 
