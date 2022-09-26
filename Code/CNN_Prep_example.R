@@ -11,10 +11,13 @@
 library(ggplot2)
 
 # set your working directory (good practice)
-setwd("./Example_Files")
+setwd("./Supplement_Barbouretal")
 
 # load in data from DTW
 load(file="./Data/dtw_output_data.rda")
+
+# Note: you will need to create folders to store the training and master datasets 
+## should be wherever your filepath leads to in the below code
 
 
 #####################################################################################
@@ -215,7 +218,7 @@ for(i in c(unique(cluster_dive_data_k2$dive_id))){
     geom_line(data=subset(cluster_dive_data_k2,dive_id==i),aes(int_dive_time,-(int_dive_depth),group=dive_id),size=1)+
     theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
           panel.background = element_blank(), axis.line = element_line(colour = "black"),axis.title=element_blank(),axis.text = element_blank(),axis.ticks = element_blank(),axis.line.x = element_blank(),axis.line.y = element_blank())
-  jpeg(paste0("yourfilepathhere/master/",paste0(i,".jpg")))
+  jpeg(paste0("C:/Users/nbarb/Documents/master/",paste0(i,".jpg")))
   print(plot)
   dev.off()
 }
