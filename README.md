@@ -25,7 +25,15 @@
 
 <br>
 
-Here, we used a Dynamic Time Warp (DTW) analysis (unsupervised machine learning) on 28,217 dives for N=31 EP leatherbacks to cluster dives by their quantitative metrics (dive depth and duration). We then used a Convolutional Neural Network (CNN) model (supervised machine learning) to classify dives within each cluster identified with the DTW by their general shape or profile. We trained our CNN on 5 published and known general dive shapes for sea turtles performing pelagic movements (Hochscheid 2014, Types A, C, D, E, and F), each of which can occur at a range of depths/durations but are indicative of different general behaviors (e.g., Type A, quick ascents/descents and prolonged bottom time). To further determine the ecological relevance of the clusters identified with the DTW, Generalized Additive Mixed Models (GAMMs) were used to determine relationships between each DTW cluster and previously identified important environmental covariates (e.g., sea surface temperature, chlorophyll-a, sea surface height, and water depth). Example code is only provided for the DTW and CNN analyses, as these are not as commonly used for movement ecology problems; GAMMs are more commonly applied in ecology and example code can be found elsewhere (see the "mgcv" R package and great book, Zuur et al., 2009, *Mixed Effects Models and Extensions in Ecology with R*). 
+Here, we used a Dynamic Time Warp (DTW) analysis (unsupervised machine learning) on 28,217 dives for N=31 EP leatherbacks to cluster dives by their quantitative metrics (dive depth and duration). We then used a Convolutional Neural Network (CNN) model (supervised machine learning) to classify dives within each cluster identified with the DTW by their general shape or profile. We trained our CNN on 5 published and known general dive shapes for sea turtles performing pelagic movements (Hochscheid 2014, Types A, C, D, E, and F), each of which can occur at a range of depths/durations but are indicative of different general behaviors (e.g., Type A, quick ascents/descents and prolonged bottom time). 
+
+<br>
+![](Images/Histograms_Shapes.png)
+
+<br>
+To further determine the ecological relevance of the clusters identified with the DTW, Generalized Additive Mixed Models (GAMMs) were used to determine relationships between each DTW cluster and previously identified important environmental covariates (e.g., sea surface temperature, chlorophyll-a, sea surface height, and water depth). 
+<br>
+Example code is only provided for the DTW and CNN analyses, as these are not as commonly used for movement ecology problems; GAMMs are more commonly applied in ecology and example code can be found elsewhere (see the "mgcv" R package and great book, Zuur et al., 2009, *Mixed Effects Models and Extensions in Ecology with R*). 
 <br>
 
 ![](Images/ShapeProportions.PNG)
