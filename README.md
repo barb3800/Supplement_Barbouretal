@@ -36,7 +36,10 @@ Here, we used a Dynamic Time Warp (DTW) analysis (unsupervised machine learning)
 <br>
 To further determine the ecological relevance of the clusters identified with the DTW, Generalized Additive Mixed Models (GAMMs) were used to determine relationships between each DTW cluster and previously identified important environmental covariates (e.g., sea surface temperature, chlorophyll-a, sea surface height, and water depth). 
 <br>
+
+<br>
 Example code is only provided for the DTW and CNN analyses, as these are not as commonly used for movement ecology problems; GAMMs are more commonly applied in ecology and example code can be found elsewhere (see the "mgcv" R package and great book, Zuur et al., 2009, *Mixed Effects Models and Extensions in Ecology with R*). 
+
 <br>
 
 ![](Images/ShapeProportions.PNG)
