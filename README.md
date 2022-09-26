@@ -39,7 +39,7 @@ To further determine the ecological relevance of the clusters identified with th
 
 <br>
 Example code is only provided for the DTW and CNN analyses, as these are not as commonly used for movement ecology problems; GAMMs are more commonly applied in ecology and example code can be found elsewhere (see the "mgcv" R package and great book, Zuur et al., 2009, *Mixed Effects Models and Extensions in Ecology with R*). 
-
+<br>
 <br>
 
 ![](Images/ShapeProportions.PNG)
