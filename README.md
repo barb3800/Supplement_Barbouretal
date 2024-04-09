@@ -1,4 +1,4 @@
-## This is a repository with example files for Barbour et al., *Clustering and classification of vertical movement profiles for ecological inference of behavior*.
+## This is a repository with example files for Barbour et al 2023 (Ecosphere, DOI: 10.1002/ecs2.4384), *Clustering and classification of vertical movement profiles for ecological inference of behavior*.
 <br>
 
 ![](Images/Bailey2012b_leatherback_GL.PNG)
